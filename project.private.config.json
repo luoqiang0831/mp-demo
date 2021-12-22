@@ -1,0 +1,34 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "登录",
+          "pathName": "packageAPI/pages/login/login",
+          "query": "",
+          "scene": null,
+          "partialCompile": {
+            "enabled": true,
+            "pages": []
+          }
+        },
+        {
+          "name": "消息订阅",
+          "pathName": "packageAPI/pages/subscribe-message/subscribe-message",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
